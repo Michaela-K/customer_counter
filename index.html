@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title> Customer Counter </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class= "main">
+            <button class="reset-btn" id="reset-btn" onclick="reset()">Reset</button>
+            <div class="number"> 
+                <h2 class= "count" id="count-el">0</h2>
+            </div>
+            <div class="top-btns">
+                <button id="decrement-btn" onclick="decrement()">-</button>
+                <button id="increment-btn" onclick="increment()">+</button>
+                </div>
+            <div class= "low-btn">
+                <button class="save-btn" id="save-btn" onclick="save()", onclick ="total()">Save</button>
+            </div>
+
+            <p class="log" id="save-el">Log: </p>
+            <!-- <p class="total" id="total-el">Total: </p> -->
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
